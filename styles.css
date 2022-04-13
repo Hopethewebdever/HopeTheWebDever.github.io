@@ -1,0 +1,68 @@
+body{
+    height: 100%;
+    background-color: #0066ff;
+    margin: 0;
+}
+
+#heroimage{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 350px;
+    width: 100%;
+    opacity: 0.8;
+}
+h1{
+    /* padding-bottom: 20%;
+    padding-top: 10%; */
+    font-size: 500%;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 5px;
+    z-index: 1;
+    object-fit: fill;
+}
+
+ul{
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b3d1ff;
+   position: absolute;
+   top: 305px;
+   width: 100%;
+
+
+}
+
+li{
+    float: left;
+
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+section{
+    margin: 0;
+}
